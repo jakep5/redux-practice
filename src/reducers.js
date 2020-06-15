@@ -20,6 +20,7 @@ function visibilityFilter(state = VisibilityFilters.SHOW_ALL, action) {
         default:
             return state
     }
+    
 }
 
 function todos(state = [], action) {
